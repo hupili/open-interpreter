@@ -83,6 +83,7 @@ class Browser:
 
     def search_google(self, query, delays=True):
         """Perform a Google search"""
+        # search google or search perplexity? 
         self.driver.get("https://www.perplexity.ai")
         # search_box = self.driver.find_element(By.NAME, 'q')
         # search_box.send_keys(query)
