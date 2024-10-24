@@ -93,7 +93,7 @@ class Browser:
         active_element = self.driver.switch_to.active_element
         active_element.send_keys(query)
         active_element.send_keys(Keys.RETURN)
-        if delays:
+        if delays: # test
             time.sleep(3)
 
     def analyze_page(self, intent):
